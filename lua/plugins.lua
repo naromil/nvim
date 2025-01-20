@@ -25,3 +25,8 @@ require('nvim-treesitter.configs').setup({
 
 require('smear_cursor').toggle()
 
+require('smear_cursor').setup({
+	cursor_color = "#00ff00",
+	legacy_computing_symbols_support = true
+})
+
