@@ -2,11 +2,15 @@ require('packer').startup(function()
 	use 'wbthomason/packer.nvim'
 	use {
 		'nvim-treesitter/nvim-treesitter',
-		run = ':TSUpdate'
+		run = function()
+			local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+			ts_update()
+		end
 	}
 	use 'neovim/nvim-lspconfig'
-	-- use 'echasnovski/mini.animate'
 	use 'catppuccin/nvim'
+	use 'folke/tokyonight.nvim'
+	use 'sphamba/smear-cursor.nvim'
 end)
 
 require('nvim-treesitter.configs').setup({
@@ -18,3 +22,6 @@ require('nvim-treesitter.configs').setup({
 		enable = true
 	}
 })
+
+require('smear_cursor').toggle()
+
