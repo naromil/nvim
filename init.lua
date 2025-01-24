@@ -7,8 +7,8 @@ vim.opt.cindent = true
 vim.opt.number = true
 -- vim.cmd("colorscheme wildcharm")
 -- vim.cmd("colorscheme zaibatsu")
-vim.cmd("colorscheme catppuccin")
--- vim.cmd("colorscheme tokyonight-night")
+-- vim.cmd("colorscheme catppuccin")
+vim.cmd("colorscheme tokyonight-night")
 vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
 vim.cmd("hi NormalNC guibg=NONE ctermbg=NONE")
 vim.cmd("hi EndOfBuffer guibg=NONE ctermbg=NONE")

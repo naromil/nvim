@@ -94,11 +94,6 @@ _G.packer_plugins = {
     path = "/home/naromil/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
-  ["smear-cursor.nvim"] = {
-    loaded = true,
-    path = "/home/naromil/.local/share/nvim/site/pack/packer/start/smear-cursor.nvim",
-    url = "https://github.com/sphamba/smear-cursor.nvim"
-  },
   ["tokyonight.nvim"] = {
     loaded = true,
     path = "/home/naromil/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
