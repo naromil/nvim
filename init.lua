@@ -21,7 +21,7 @@ vim.api.nvim_create_user_command(
 
 vim.api.nvim_create_user_command(
 	'BE',
-	'w | exec \'vs | terminal g++ -Wall % -o %< && ./%<\'',
+	'w | exec \'vs | terminal g++ % -o %< -Wall -Wextra -pedantic -O2 -std=c++17 && ./%<\'',
 	{ nargs = 0 }
 )
 
