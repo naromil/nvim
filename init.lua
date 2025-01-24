@@ -2,8 +2,8 @@ require('plugins')
 
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
--- vim.opt.autoindent = true
--- vim.opt.cindent = true
+vim.opt.autoindent = true
+vim.opt.cindent = true
 vim.opt.number = true
 -- vim.cmd("colorscheme wildcharm")
 -- vim.cmd("colorscheme zaibatsu")
