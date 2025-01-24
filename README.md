@@ -1,4 +1,4 @@
-# Neovim configuration for Naromil
+# Naromil's Neovim Configuration.
 
 Hello, world!
 
@@ -7,13 +7,6 @@ Hello, world!
 > Linux
 
 ```shell
-git clone https://github.com/naromil/nvim.git ~/.config/nvim
+bash <(curl https://raw.githubusercontent.com/naromil/nvim/refs/heads/main/install.sh)
 ```
 
-> Windows
-
-```shell
-git clone https://github.com/naromil/nvim.git "$env:LOCALAPPDATA\nvim"
-```
-
-Launch Neovim and then `:PackerSync` and restart, and `:TSInstall cpp` and restart again.
