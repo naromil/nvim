@@ -16,11 +16,13 @@ bash <(curl https://raw.githubusercontent.com/naromil/nvim/refs/heads/main/insta
 To be continued.
 ```
 
-## Getting started
+## Shortcut Keys
 
-`<F9>`: Save and compile(g++) and run.
+`<F9>`:
+* Save and compile(g++) and run.
+* Exit `TERMINAL` mode.
 
-`:BE`: Same as `<F9>`
+`:BE`: Save and compile(g++) and run.
 
 `:CP`: Copy all.(Need `xclip`)
 
