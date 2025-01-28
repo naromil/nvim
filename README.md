@@ -4,6 +4,11 @@ Hello, world!
 
 ## Installation
 
+#### Prerequisites
+- `xclip`
+- `wl-clipboard`
+- `lolcat`
+
 > Linux
 
 ```shell
@@ -24,7 +29,7 @@ To be continued.
 
 `:BE`: Save and compile(g++) and run.
 
-`:CP`: Copy all.(Need `xclip` or `wl-clipboard`)
+`:CP`: Copy all.
 
 ## Alternative as Vim
 
