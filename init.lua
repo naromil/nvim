@@ -15,7 +15,7 @@ vim.cmd("hi EndOfBuffer guibg=NONE ctermbg=NONE")
 
 vim.api.nvim_create_user_command(
 	'CP',
-	'w | exec \'!cat % | xclip -selection clipboard\'',
+	'w | exec \'!cat % | xclip -selection clipboard\' | exec \'!cat % | wl-copy\'',
 	{ nargs = 0 }
 )
 

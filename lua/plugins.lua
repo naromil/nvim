@@ -4,7 +4,6 @@ require('packer').startup(function()
 	use 'neovim/nvim-lspconfig'
 	use 'catppuccin/nvim'
 	use 'folke/tokyonight.nvim'
---	use 'sphamba/smear-cursor.nvim'
 end)
 
 local status, tmp = pcall(require, "nvim-treesitter")
@@ -20,10 +19,3 @@ require('nvim-treesitter.configs').setup({
 		enable = true
 	}
 })
-
--- require('smear_cursor').toggle()
--- require('smear_cursor').setup({
--- 	-- cursor_color = "#00ff00",
--- 	legacy_computing_symbols_support = true
--- })
-

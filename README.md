@@ -24,7 +24,7 @@ To be continued.
 
 `:BE`: Save and compile(g++) and run.
 
-`:CP`: Copy all.(Need `xclip`)
+`:CP`: Copy all.(Need `xclip` or `wl-clipboard`)
 
 ## Alternative as Vim
 
