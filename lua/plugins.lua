@@ -13,7 +13,8 @@ if status == false then
 end
 
 require('nvim-treesitter.configs').setup({
-	ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline", "cpp", "bash", "gitcommit" },
+--	ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline", "cpp", "bash", "gitcommit" },
+	ensure_installed = { "c", "lua", "cpp" },
 	sync_install = true,
 	highlight = {
 		enable = true
