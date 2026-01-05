@@ -25,5 +25,5 @@ vim.api.nvim_create_user_command(
 	{ nargs = 0 }
 )
 
-vim.keymap.set('n', '<F9>', ':BE<CR>i')
-vim.keymap.set('t', '<F9>', '<C-\\><C-n>')
+vim.keymap.set('n', '<F5>', ':BE<CR>i')
+vim.keymap.set('t', '<F5>', '<C-\\><C-n>')
